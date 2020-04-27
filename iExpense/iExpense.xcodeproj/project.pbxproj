@@ -15,6 +15,7 @@
 		05516B812456601900C03402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05516B7F2456601900C03402 /* LaunchScreen.storyboard */; };
 		05516B8C2456601900C03402 /* iExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05516B8B2456601900C03402 /* iExpenseTests.swift */; };
 		05516B972456601900C03402 /* iExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05516B962456601900C03402 /* iExpenseUITests.swift */; };
+		05516BA524569C3B00C03402 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05516BA424569C3B00C03402 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05516B922456601900C03402 /* iExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05516B962456601900C03402 /* iExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITests.swift; sourceTree = "<group>"; };
 		05516B982456601900C03402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05516BA424569C3B00C03402 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				05516B7F2456601900C03402 /* LaunchScreen.storyboard */,
 				05516B822456601900C03402 /* Info.plist */,
 				05516B7C2456601900C03402 /* Preview Content */,
+				05516BA424569C3B00C03402 /* AddView.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05516BA524569C3B00C03402 /* AddView.swift in Sources */,
 				05516B752456601700C03402 /* AppDelegate.swift in Sources */,
 				05516B772456601700C03402 /* SceneDelegate.swift in Sources */,
 				05516B792456601700C03402 /* ContentView.swift in Sources */,
